@@ -45,7 +45,6 @@ public class Calculator {
 		new Square();
 		new Power();
 		new ZweimalMinus();
-
 		new Divide();
 	}
 
