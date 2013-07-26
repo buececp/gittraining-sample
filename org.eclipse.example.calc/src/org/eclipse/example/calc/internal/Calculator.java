@@ -18,6 +18,7 @@ import org.eclipse.example.calc.internal.operations.Minus;
 import org.eclipse.example.calc.internal.operations.Plus;
 import org.eclipse.example.calc.internal.operations.Power;
 import org.eclipse.example.calc.internal.operations.Square;
+import org.eclipse.example.calc.internal.operations.ZweimalMinus;
 
 public class Calculator {
 
@@ -42,6 +43,7 @@ public class Calculator {
 		new Plus();
 		new Square();
 		new Power();
+		new ZweimalMinus();
 	}
 
 	private void calculate(String cmdName) {
