@@ -15,7 +15,7 @@ import org.eclipse.example.calc.Operations;
  * Abstract operation caring for book-keeping
  */
 public abstract class AbstractOperation implements Operation {
-	AbstractOperation() {
+	protected AbstractOperation() {
 		Operations.INSTANCE.register(this);
 	}
 }

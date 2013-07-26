@@ -10,6 +10,7 @@
 package org.eclipse.example.calc.internal;
 
 import org.eclipse.example.calc.BinaryOperation;
+import org.eclipse.example.calc.Divide;
 import org.eclipse.example.calc.Operation;
 import org.eclipse.example.calc.Operations;
 import org.eclipse.example.calc.UnaryOperation;
@@ -44,6 +45,8 @@ public class Calculator {
 		new Square();
 		new Power();
 		new ZweimalMinus();
+
+		new Divide();
 	}
 
 	private void calculate(String cmdName) {
